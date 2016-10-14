@@ -289,7 +289,7 @@ parentViewController:(UIViewController*)parentViewController
     self.plugin               = plugin;
     self.callback             = callback;
     self.parentViewController = parentViewController;
-    self.alternateXib         = alternateXib;
+    self.alternateXib         = @"scannerOverlay";
 
     self.is1D      = YES;
     self.is2D      = YES;
